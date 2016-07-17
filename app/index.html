@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ciklum JavaScript Internship Frankenshtein page">
+    <link rel="icon" type="image/png" href="https://www.ciklum.com/wp-content/themes/ciklum-theme/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.ciklum.com/wp-content/themes/ciklum-theme/img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.ciklum.com/wp-content/themes/ciklum-theme/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.ciklum.com/wp-content/themes/ciklum-theme/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Ciklum JavaScript Internship</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <section class="header microsoft--section">
+            <div class="main-header">
+                <div class="main-header--brand">
+                    <a href="https://www.microsoft.com" title="Microsoft"><img src="https://assets.onestore.ms/cdnfiles/onestorerolling-1606-01000/shell/v3/images/logo/microsoft.png" alt="Microsoft"> </a>
+                </div>
+                <div class="nav-wrapper">
+                    <ul class="main-menu cd-dropdown-content">
+                        <li class="has-children">
+                            <a href="#0" id="MSshop" class="btn-menu btn-menu1">
+							Магазин <i class="fa fa-angle-down" aria-hidden="true"></i>
+						</a>
+                            <ul id="shop--list--dropdown" class="list--dropdown">
+                                <li><a href="#">Домашняя страница магазина</a></li>
+                               
+                                <li class="has-children"><a href="#0" id="nav-office">Office <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a>
+                                    
+                                    <ul id="nav-office-child" class="child">
+                                        <li><a href="#">Все версии Office</a></li>
+                                        <li><a href="#">Программные комплексы Office</a></li>
+                                        <li> <a href="#">Все программы Office</a></li>
+                                        <li> <a href="#">Office для вашего Mac</a></li>
+                                        <li> <a href="#">Office 365</a></li>
+                                        <li> <a href="#">Сравнение программных комплексов Office</a></li>
+                                        <li> <a href="#">Языковые пакеты Office</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a href="#0" id="nav-windows">windows <i class="fa fa-angle-right" 					aria-hidden="true"></i></a>
+                                    <ul id="nav-windows-child" class="child">
+                                        <li><a href="#">Windows 10 HOME</a></li>
+                                        <li><a href="#">Windows 10 Pro</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children"> <a href="#0" id="products" class="btn-menu">Продукты <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul id="products--list--dropdown" class="list--dropdown">
+                                <li class="has-children"><a href="#">Программное обеспечение и службы<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul class="child">
+                                        <li><a href="#">Windows</a></li>
+                                        <li><a href="#">Office</a></li>
+                                        <li><a href="#">Бесплатные загрузки и безопасность</a></li>
+                                        <li><a href="#">Internet Explorer</a></li>
+                                        <li><a href="#">Microsoft Edge</a></li>
+                                        <li><a href="#">Skype</a></li>
+                                        <li><a href="#">OneNote</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a href="#">Устройства и Xbox<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul class="child">
+                                        <li><a href="#">Компьютерные аксесуары</a></li>
+                                        <li><a href="#">Microsoft Lumia</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"> <a href="#">Для бизнеса<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul class="child">
+                                        <li><a href="#">Microsoft Azure</a></li>
+                                        <li><a href="#">Microsoft Dynamics</a></li>
+                                        <li><a href="#">Windows для бизнеса</a></li>
+                                        <li><a href="#">Office для бизнеса</a></li>
+                                        <li><a href="#">Skype для бизнеса</a></li>
+                                        <li><a href="#">Корпоративные решения</a></li>
+                                        <li><a href="#">Решения для малого бизнеса</a></li>
+                                        <li><a href="#">Найти поставщика решений</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"> <a href="#">Для IT-специалистов и разработчиков<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul class="child">
+                                        <li><a href="#">Разработка программ Windows</a></li>
+                                        <li><a href="#">Microsoft Azure</a></li>
+                                        <li><a href="#">MSDN</a></li>
+                                        <li><a href="#">Visual Studio</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"> <a href="#">Образование<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul class="child">
+                                        <li><a href="#">Образование</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a href="#" role="button" aria-haspopup="true" aria-expanded="false">Поддержка</a></li>
+                    </ul>
+                </div>
+                <div class="pull-right">
+                    <form class="main-header--search">
+                        <input type="search" title="Пошук на веб-сайті Microsoft.com" name="q" data-bi-dnt="" placeholder="Пошук на веб-сайті Microsoft.com" maxlength="200" tabindex="30" />
+                        <input type="hidden" name="form" value="MSHOME">
+                        <button type="submit" class="main-header--search--btn"> <i class="fa fa-search"></i> </button>
+                    </form>
+                    <div id="btn__call" class="main-header--search__sm--btn__call"> <a href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a> </div>
+                    <div class="main-header--shop"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+                    <div class="main-header__sm--btn"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i>
+
+</a></div>
+                    <div class="main-header--entry--link"><a href="#">Вход</a></div>
+                </div>
+            </div>
+            <div class="main-header--search__sm--wrapper">
+                <form class="main-header--search__sm">
+                    <input type="search" title="Пошук на веб-сайті Microsoft.com" name="q" data-bi-dnt="" placeholder="Пошук на веб-сайті Microsoft.com" />
+                    <input type="hidden" name="form" data-bi-dnt="" value="MSHOME">
+                    <button type="submit" class="main-header--search--btn__sm"> <i class="fa fa-search"></i> </button>
+                </form>
+            </div>
+        </section>
+        <!-- End-header microsoft-Section -->
+    </div>
+    <div class="clearfix"></div>
+    <section class="drop-box">
+        <div class="box__background-container"> </div>
+        <div class="top-section">
+            <div class="top-section__container">
+                <h1 class="box__header">Безопасный доступ, синхронизация и совместная работа</h1>
+                <h2 class="box__sub-header">Хранение и безопасный доступ к данным — аккаунты Dropbox Business пользуются доверием у системных администраторов и нравятся пользователям.</h2>
+                <div class="try-business-cta"> <a href="#0">Попробуйте бесплатную 30-дневную ознакомительную версию</a> <span class="try-business-cta__footer">или <a href="#">купите прямо сейчас</a></span></div>
+            </div>
+        </div>
+    </section>
+    <!-- End-Drop-Box-Section -->
+    <section class="invision">
+        <div class="inner">
+            <h2>
+Join over 2 million designers already using InVision. Get InVision  <strong>free</strong> forever!
+</h2>
+            <form action="https://projects.invisionapp.com/d/signup/process" method="POST" class="signup_form">
+                <input name="uploadDemoID" value="" type="hidden">
+                <input name="source" value="" type="hidden">
+                <input name="referer" value="https://www.google.com.ua" type="hidden">
+                <input name="keywords" value="" type="hidden">
+                <input name="submissionForm" value="Marketing Site" type="hidden">
+                <input name="xsrfFormToken" value="d4c361e2823fd3d8988471fd730fdb77" type="hidden">
+                <p>
+                    <label for="signup_name" style="opacity: 1;">Your Name</label> <i></i>
+                    <input type="text" name="name" value="" id="signup_name" autocomplete="off" spellcheck="false"> </p>
+                <p>
+                    <label style="opacity: 1;" for="signup_email">Email Address</label> <i class="ico-email"></i>
+                    <input name="email" id="signup_email" value="" autocomplete="off" spellcheck="false" type="text"> </p>
+                <p>
+                    <label style="opacity: 1;" for="signup_password">Create a Password</label> <i class="ico-lock"></i>
+                    <input name="password" id="signup_password" value="" autocomplete="off" spellcheck="false" type="password"> </p>
+                <p class="invision-button">
+                    <button type="submit">Get Started — Free Forever!</button>
+                </p>
+            </form>
+            <p class="terms">By clicking "Get Started — Free Forever!" I agree to InVision's <a href="#0">Terms of Service.</a></p>
+        </div>
+    </section>
+    <!-- End-Invision-Section -->
+    <section class="oculus">
+        <a href="#0" class="featured-content">
+            <div class="featured-content_1" style="background-image: url(images/eve-valkyrie.jpg);">
+                <div class="featured-content--description">
+                    <p>featured content</p>
+                    <h3>EVE: Valkyrie</h3> </div>
+                <div class="featured-content--description__inner"></div>
+            </div>
+        </a>
+        <a href="#0" class="featured-content">
+            <div class="featured-content_1" style="background-image: url(images/luckys-tale.jpg);">
+                <div class="featured-content--description">
+                    <p>included with all rift purchases</p>
+                    <h3>Lucky's Tale</h3> </div>
+                <div class="featured-content--description__inner"></div>
+            </div>
+        </a>
+        <a href="#0" class="featured-content">
+            <div class="featured-content_1" style="background-image: url(images/oc3-stage-image.jpg);">
+                <div class="featured-content--description">
+                    <p>featured story</p>
+                    <h3>Welcome to the Virtual Age</h3> </div>
+                <div class="featured-content--description__inner"></div>
+            </div>
+        </a>
+        <div class="clearfix"></div>
+    </section>
+    <!-- End-Oculus-Section -->
+    <footer class="apple--footer">
+        <div class="apple--footer--content">
+            <div class="nav-columns">
+                <h3 class="nav-columns__show">Shop and Learn<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Mac</a></li>
+                    <li><a href="#0">iPad</a></li>
+                    <li><a href="#0">iPhone</a></li>
+                    <li><a href="#0">Watch</a></li>
+                    <li><a href="#0">TV</a></li>
+                    <li><a href="#0">Music</a></li>
+                    <li><a href="#0">iTunes</a></li>
+                    <li><a href="#0">iPod</a></li>
+                    <li><a href="#0">Accessories</a></li>
+                    <li><a href="#0">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="nav-columns">
+                <h3 class="nav-columns__show">Apple Store<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Find a Store</a></li>
+                    <li><a href="#0">Genius Bar</a></li>
+                    <li><a href="#0">Workshops and Learning</a></li>
+                    <li><a href="#0">Youth Programs</a></li>
+                    <li><a href="#0">Apple Store App</a></li>
+                    <li><a href="#0">Refurbished</a></li>
+                    <li><a href="#0">Financing</a></li>
+                    <li><a href="#0">Reuse and Recycling</a></li>
+                    <li><a href="#0">Order Status</a></li>
+                    <li><a href="#0">Shopping Help</a></li>
+                </ul>
+            </div>
+            <div class="nav-columns">
+                <h3 class="nav-columns__show">For Education<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Apple and Education</a></li>
+                    <li><a href="#0">Shop for College</a></li>
+                </ul>
+                <h3 class="nav-columns__show">For Business<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Apple and Business</a></li>
+                    <li><a href="#0">Shop for Business</a></li>
+                </ul>
+            </div>
+            <div class="nav-columns">
+                <h3 class="nav-columns__show">Account<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Manage Your Apple ID</a></li>
+                    <li><a href="#0">Apple Store Account</a></li>
+                    <li><a href="#0">iCloud.com</a></li>
+                </ul>
+                <h3 class="nav-columns__show">Apple Values<span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Environment</a></li>
+                    <li><a href="#0">Supplier Responsibility</a></li>
+                    <li><a href="#0">Accessibility</a></li>
+                    <li><a href="#0">Privacy</a></li>
+                    <li><a href="#0">Inclusion and Diversity</a></li>
+                    <li><a href="#0">Education</a></li>
+                </ul>
+            </div>
+            <div class="nav-columns">
+                <h3 class="nav-columns__show">About Apple <span class="pull-right">+</span></h3>
+                <ul>
+                    <li><a href="#0">Apple info</a></li>
+                    <li><a href="#0">Newsroom</a></li>
+                    <li><a href="#0">Job Opportunities</a></li>
+                    <li><a href="#0">Investors</a></li>
+                    <li><a href="#0">Events</a></li>
+                    <li><a href="#0">Contact Apple</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="apple--footer--shop">More ways to shop: Visit an <a href="#0">Apple Store</a>, call 1-800-MY-APPLE, or <a href="#0">find a reseller</a>.</div>
+            <div class="apple--footer--policy">
+                <div class="apple--footer--copyright">Copyright © 2016 Apple Inc. All rights reserved.</div>
+                <div class="apple--footer--policy__inner"><a href="#0">Privacy Policy</a> <a href="#0">Terms of Use</a> <a href="#0">Sales and Refunds</a> <a href="#0">Legal</a> <a href="#0">Site Map</a></div>
+            </div>
+            <div class="apple--footer--locale"><a href="#0" class="apple--footer--link"><span class="apple--footer--locale-flag"></span>United States</a> </div>
+        </div>
+    </footer>
+    <script src="https://use.fontawesome.com/f8446f805d.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
